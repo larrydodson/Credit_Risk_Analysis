@@ -1,6 +1,3 @@
-# templates
-general location of my templates
-
 # Project Name 
 subtitle 
 
@@ -24,10 +21,11 @@ subtitle
    To prepare a new . 
   
    The deliverables are: 
-   - Deliverable 1: a
-   - Deliverable 2: b
-   - Deliverable 3: c.
-  
+   - Deliverable 1: Use Resampling Models to Predict Credit Risk
+   - Deliverable 2: Use the SMOTEENN Algorithm to Predict Credit Risk
+   - Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+   - Deliverable 4: A Written Report on the Credit Risk Analysis (this README.md)
+
    
   
    ### Resources
@@ -40,15 +38,23 @@ subtitle
 
 ## Results
 
-   Below . 
 
-### Deliverable 1: a
-
-### Deliverable 2: b 
-
-### Deliverable 3: n 
+   ### Deliverable 1: Resampling Models to Predict Credit Risk
 
 
+
+   ### Deliverable 2: SMOTEENN Algorithm to Predict Credit Risk
+   
+   
+   
+   ### Deliverable 3: Ensemble Classifiers to Predict Credit Risk
+   
+   
+   
+   ### Deliverable 4: Written Report on the Credit Risk Analysis (this README.md)
+   
+   
+   
 
 
  
