@@ -94,7 +94,7 @@ UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk dec
 
 ### Recommendation
 
-   Recommended choice of machine learning model, based on using this dataset, of the six candidate evaluations: **Easy Ensemble AdaBoost Classifier**. 
+   Recommended choice of machine learning model, based on using this dataset, of the six candidate evaluations:<br> **Easy Ensemble AdaBoost Classifier**. <br>
      Reason: The model has the best overall scores of each of the other five models. 
 
 
