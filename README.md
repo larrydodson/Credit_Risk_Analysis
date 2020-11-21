@@ -46,12 +46,12 @@ UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk dec
 
    | **Naive Random Oversampling** | **SMOTE Oversampling** |   
    | :--- | :--- |  
-   | `ros = RandomOverSampler(random_state=1)`<br>`X_resampled, y_resampled = ros.fit_resample(X_train, y_train)`<br><br>![random_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/random_over.png) | `X_resampled, y_resampled = SMOTE(random_state=1, sampling_strategy='auto')<br>.fit_resample(X_train, y_train)`<br><br>![smote_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smote_over.png) | 
+   | `ros = RandomOverSampler(random_state=1)`<br>`X_resampled, y_resampled = ros.fit_resample(X_train, y_train)`<br><br>![random_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/random_over.png) | `X_resampled, y_resampled = SMOTE(random_state=1, sampling_strategy='auto') <br> .fit_resample(X_train, y_train)`<br><br>![smote_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smote_over.png) | 
    | Balanced Accuracy Score: 0.6603<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.58<br>F1 Score, Avg: 0.73 | Balanced Accuracy Score: 0.6537<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.68<br>F1 Score, Avg: 0.81 |
 
    | **Undersampling, Cluster Centroids** |  
    | :--- | 
-   | `cc = ClusterCentroids(random_state=1)` `X_resampled, y_resampled = cc.fit_resample(X_train, y_train)`<br><br>![cluster_centroids_under.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/cluster_centroids_under.png) |
+   | `cc = ClusterCentroids(random_state=1)` <br> `X_resampled, y_resampled = cc.fit_resample(X_train, y_train)`<br><br>![cluster_centroids_under.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/cluster_centroids_under.png) |
    | Balanced Accuracy Score: 0.5474<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.41<br>F1 Score, Avg: 0.58 |
 
 .
@@ -72,7 +72,7 @@ UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk dec
    | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
    | :--- | :--- | 
    | `rf_model = RandomForestClassifier(n_estimators=500, random_state=1)`<br> `rf_model = rf_model.fit(X_train, y_train)`<br><br>![RandomForest_classifier.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_classifier.png) | `adaboost = AdaBoostClassifier(n_estimators=1000, learning_rate=1,random_state=1)`<br>`model = adaboost.fit(X_train, y_train)`<br><br>![Ensemble_adaboost_classifier.pn](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/Ensemble_adaboost_classifier.png) | 
-   | Balanced Accuracy Score: 0.6830<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00<br> <br> **Feature Importances**: ![RandomForest_importances.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_importances.png)  | Balanced Accuracy Score: 0.7326<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00 | 
+   | Balanced Accuracy Score: 0.6830<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00<br> <br> **Feature Importances**: <br> ![RandomForest_importances.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_importances.png)  | Balanced Accuracy Score: 0.7326<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00 <br><br><br><br> <br><br><br><br> | 
 
 .
 
