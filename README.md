@@ -39,16 +39,16 @@ UTMCC DataViz Module 17
 
    ### Deliverable 1: Resampling Models to Predict Credit Risk
 
-   | **abc** | **abc** | **abc** |  
-   | :---: | :---: | :---: |  
-   | ![]() | ![]() | ![]() |  
-   | abc | abc | abc |  
+   | **Naive Random Oversampling** | **SMOTE Oversampling** | **Undersampling, Cluster Centroids** |  
+   | :--- | :--- | :--- |  
+   | ![random_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/random_over.png) | ![smote_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smote_over.png) | ![cluster_centroids_under.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/cluster_centroids_under.png) | 
+   | Balanced Accuracy Score: 0.6603<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.58<br>F1 Score, Avg: 0.73 | Balanced Accuracy Score: 0.6537<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.68<br>F1 Score, Avg: 0.81 | Balanced Accuracy Score: 0.5474<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.41<br>F1 Score, Avg: 0.58 |  
 
 
    ### Deliverable 2: SMOTEENN Algorithm to Predict Credit Risk
 
    | **SMOTEENN Combination Over & Under Sampling Algorithm** |
-   | :---: |
+   | :--- |
    | ![smoteenn_combo.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smoteenn_combo.png) |
    | Balanced Accuracy Score: 0.6448<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.57<br>F1 Score, Avg: 0.72 | 
    
@@ -56,9 +56,9 @@ UTMCC DataViz Module 17
    ### Deliverable 3: Ensemble Classifiers to Predict Credit Risk
 
    | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
-   | :---: | :---: | 
+   | :--- | :--- | 
    | ![RandomForest_classifier.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_classifier.png) | ![Ensemble_adaboost_classifier.pn](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/Ensemble_adaboost_classifier.png) | 
-   | Balanced Accuracy Score: 0.6830<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00<br> <br> ![RandomForest_importances.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_importances.png)  | Balanced Accuracy Score: 0.7326<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00 | 
+   | Balanced Accuracy Score: 0.6830<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00<br> <br> **Feature Importances**: ![RandomForest_importances.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_importances.png)  | Balanced Accuracy Score: 0.7326<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00 | 
    
    
    
