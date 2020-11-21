@@ -72,7 +72,7 @@ UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk dec
    | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
    | :--- | :--- | 
    | `rf_model = RandomForestClassifier(n_estimators=500, random_state=1)`<br> `rf_model = rf_model.fit(X_train, y_train)`<br><br>![RandomForest_classifier.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_classifier.png) | `adaboost = AdaBoostClassifier(n_estimators=1000, learning_rate=1,random_state=1)`<br>`model = adaboost.fit(X_train, y_train)`<br><br>![Ensemble_adaboost_classifier.pn](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/Ensemble_adaboost_classifier.png) | 
-   | Balanced Accuracy Score: 0.6830<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00<br> <br> **Feature Importances**: <br> ![RandomForest_importances.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_importances.png)  | Balanced Accuracy Score: 0.7326<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00 <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> | 
+   | Balanced Accuracy Score: 0.6830<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00<br> <br> **Feature Importances**: <br> ![RandomForest_importances.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_importances.png)  | Balanced Accuracy Score: 0.7326<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00 <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br> <br><br><br><br><br> | 
 
 .
 
