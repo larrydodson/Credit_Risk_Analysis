@@ -46,7 +46,9 @@ UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk dec
 
    | **Naive Random Oversampling** | **SMOTE Oversampling** | **Undersampling, Cluster Centroids** |  
    | :--- | :--- | :--- |  
-   | ![random_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/random_over.png) | ![smote_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smote_over.png) | ![cluster_centroids_under.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/cluster_centroids_under.png) | 
+   | `ros = RandomOverSampler(random_state=1)
+X_resampled, y_resampled = ros.fit_resample(X_train, y_train)`<br>![random_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/random_over.png) | `X_resampled, y_resampled = SMOTE(random_state=1, sampling_strategy='auto').fit_resample(X_train, y_train)`<br>![smote_over.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smote_over.png) | `cc = ClusterCentroids(random_state=1)
+X_resampled, y_resampled = cc.fit_resample(X_train, y_train)`<br>![cluster_centroids_under.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/cluster_centroids_under.png) | 
    | Balanced Accuracy Score: 0.6603<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.58<br>F1 Score, Avg: 0.73 | Balanced Accuracy Score: 0.6537<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.68<br>F1 Score, Avg: 0.81 | Balanced Accuracy Score: 0.5474<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.41<br>F1 Score, Avg: 0.58 |  
 
 .
@@ -56,7 +58,8 @@ UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk dec
 
    | **SMOTEENN Combination Over & Under Sampling Algorithm** |
    | :--- |
-   | ![smoteenn_combo.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smoteenn_combo.png) |
+   | `smote_enn = SMOTEENN(random_state=0)
+X_resampled, y_resampled = smote_enn.fit_resample(X, y)`<br>![smoteenn_combo.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smoteenn_combo.png) |
    | Balanced Accuracy Score: 0.6448<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.57<br>F1 Score, Avg: 0.72 | 
 
 .
