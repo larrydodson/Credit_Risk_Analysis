@@ -73,7 +73,7 @@ UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk.
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
 
-| Summary Comparison Information ... . | **Naive Random Oversampling** | **SMOTE Oversampling** | **Undersampling, Cluster Centroids** | **SMOTEENN Combination Over&Under Sampling** | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
+| Comparing Scores:  ... . | **Naive Random Oversampling** | **SMOTE Oversampling** | **Undersampling, Cluster Centroids** | **SMOTEENN Combination Over&Under Sampling** | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
 | ---: | ---: | ---: | ---: |  ---: | ---: | ---: | 
 | Balanced Accuracy Score:<br>Precision, Avg:<br>Recall (Sensitivity), Avg:<br>F1 Score, Avg: | 0.6603<br>0.99<br>0.58<br>0.73 | 0.6537<br>0.99<br>0.68<br>0.81 | 0.5474<br>0.99<br>0.41<br>0.58 | 0.6448<br>0.99<br>0.57<br>0.72 | 0.6830<br>1.00<br>1.00<br>1.00 | 0.7326<br>1.00<br>1.00<br>1.00 |
 
@@ -81,6 +81,10 @@ Summarize the results of the machine learning models, and include a recommendati
 
 ### Recommendation
 
+   Easy Ensemble AdaBoost Classifier 
+
+
 
 .
+
 .end
