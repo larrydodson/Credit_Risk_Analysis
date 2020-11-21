@@ -1,5 +1,5 @@
 # Credit Risk Analysis 
-UTMCC DataViz Module 17  
+UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk.
 
 ---
 
@@ -71,6 +71,13 @@ UTMCC DataViz Module 17
 
 # Summary
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+
+
+| . | **Naive Random Oversampling** | **SMOTE Oversampling** | **Undersampling, Cluster Centroids** | **SMOTEENN Combination Over&Under Sampling** | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
+| ---: | ---: | ---: | ---: |  ---: | ---: | ---: | 
+|  |  |  |  |  |  |  |
+
+
 
 ### Recommendation
 
