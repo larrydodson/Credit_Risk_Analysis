@@ -55,10 +55,10 @@ UTMCC DataViz Module 17
    
    ### Deliverable 3: Ensemble Classifiers to Predict Credit Risk
 
-   | **abc** | **abc** | 
+   | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
    | :---: | :---: | 
-   | ![]() | ![]() | 
-   | abc | abc | 
+   | ![RandomForest_classifier.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_classifier.png) | ![Ensemble_adaboost_classifier.pn](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/Ensemble_adaboost_classifier.png) | 
+   | Balanced Accuracy Score: 0.6830<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00<br> <br> ![RandomForest_importances.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/RandomForest_importances.png)  | Balanced Accuracy Score: 0.7326<br>Precision, Avg: 1.00<br>Recall (Sensitivity), Avg: 1.00<br>F1 Score, Avg: 1.00 | 
    
    
    
