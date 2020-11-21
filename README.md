@@ -80,10 +80,13 @@ UTMCC DataViz Module 17,  Appling machine learning to solve credit card risk dec
 ---
 
 # Summary
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+  * In addition to the comments above in the Results section on the six different machine learning models, below we see a more focused comparison for the scores on accuracy, precision, recall and the respective F1 scores. 
+  * The F1 score, as a combination score of precision and recall, with the calculation formula of 2(Precision * Sensitivity)/(Precision + Sensitivity), gives an additional determination metric.
+  * Of the sampling methods, the F1 score for SMOTE Oversampling is at 81%, and reinforces that it is the best method among the group of the four sampling methods.
+  * When including in comparison the Ensemble Classifier methods, each has an F1 average score of 1.0, and also reinforces these two methods as superior overall. 
 
 
-| Comparing Scores:  ................................ | **Naive Random Oversampling** | **SMOTE Oversampling** | **Undersampling, Cluster Centroids** | **SMOTEENN Combination Over&Under Sampling** | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
+| .................................... <br> Comparing Scores: | **Naive Random Oversampling** | **SMOTE Oversampling** | **Undersampling, Cluster Centroids** | **SMOTEENN Combination Over&Under Sampling** | **Balanced Random Forest Classifier** | **Easy Ensemble AdaBoost Classifier** | 
 | :--- | ---: | ---: | ---: |  ---: | ---: | ---: | 
 | 1) Balanced Accuracy Score:<br>2) Precision, Avg:<br>3) Recall (Sensitivity), Avg:<br>4) F1 Score, Avg: | 0.6603<br>0.99<br>0.58<br>0.73 | 0.6537<br>0.99<br>0.68<br>0.81 | 0.5474<br>0.99<br>0.41<br>0.58 | 0.6448<br>0.99<br>0.57<br>0.72 | 0.6830<br>1.00<br>1.00<br>1.00 | 0.7326<br>1.00<br>1.00<br>1.00 |
 
@@ -91,7 +94,8 @@ Summarize the results of the machine learning models, and include a recommendati
 
 ### Recommendation
 
-   Easy Ensemble AdaBoost Classifier 
+   Recommended choice of machine learning model, based on using this dataset, of the six candidate evaluations: **Easy Ensemble AdaBoost Classifier**. 
+     Reason: The model has the best overall scores of each of the other five models. 
 
 
 
