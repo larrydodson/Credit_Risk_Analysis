@@ -10,7 +10,6 @@ UTMCC DataViz Module 17
   * Results
   * Summary
  
-
 ---  
 
 ## Overview 
@@ -26,12 +25,11 @@ UTMCC DataViz Module 17
    - Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
    - Deliverable 4: A Written Report on the Credit Risk Analysis (this README.md)
 
-   
-  
+
    ### Resources
-  * Data/content sources: LoanStats_2019Q1.csv
-  * Software: Windows10, Python 3.8.3, Jupyter Notebook, Scikit-learn
-  
+  * Data/content source file: LoanStats_2019Q1.csv
+  * Software: Windows10, Python 3.8.3, Pandas, Scikit-learn, imblearn.ensemble, Jupyter Notebook 
+
 <br>
 
 --- 
@@ -39,34 +37,34 @@ UTMCC DataViz Module 17
 ## Results
  Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
-
-
    ### Deliverable 1: Resampling Models to Predict Credit Risk
 
+   | **abc** | **abc** | **abc** |  
+   | :---: | :---: | :---: |  
+   | ![]() | ![]() | ![]() |  
+   | abc | abc | abc |  
 
 
    ### Deliverable 2: SMOTEENN Algorithm to Predict Credit Risk
-   
+
+   | **SMOTEENN Combination Over & Under Sampling Algorithm** |
+   | :---: |
+   | ![smoteenn_combo.png](https://github.com/larrydodson/Credit_Risk_Analysis/blob/main/smoteenn_combo.png) |
+   | Balanced Accuracy Score: 0.6448<br>Precision, Avg: 0.99<br>Recall (Sensitivity), Avg: 0.57<br>F1 Score, Avg: 0.72 | 
    
    
    ### Deliverable 3: Ensemble Classifiers to Predict Credit Risk
+
+   | **abc** | **abc** | 
+   | :---: | :---: | 
+   | ![]() | ![]() | 
+   | abc | abc | 
    
    
    
-   ### Deliverable 4: Written Report on the Credit Risk Analysis (this README.md)
+   ### Deliverable 4: Written Report on the Credit Risk Analysis 
+   (this README.md)
    
-   
-   
-
-
- 
-   | **abc** |
-   | :---: |
-   | ![]() |
-
-
-
-
 <br>
 
 ---
@@ -74,14 +72,8 @@ UTMCC DataViz Module 17
 # Summary
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
 
-### Q 
-  1. *m*
-
-
-
-
+### Recommendation
 
 
 .
-
 .end
